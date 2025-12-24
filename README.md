@@ -13,6 +13,7 @@
 *MENTOR*: NEELA SANTOSH
 
 Task Description: Interactive Quiz Application
+
 1.Editor / Development Environment Used :
 
 The Interactive Quiz Application was developed using Visual Studio Code (VS Code) as the primary code editor. Visual Studio Code is a lightweight yet powerful source-code editor developed by Microsoft. It 
