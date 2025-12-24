@@ -15,29 +15,34 @@
 Task Description: Interactive Quiz Application
 1.Editor / Development Environment Used :
 
-The Interactive Quiz Application was developed using Visual Studio Code (VS Code) as the primary code editor. Visual Studio Code is a lightweight yet powerful source-code editor developed by Microsoft. It supports multiple programming languages and provides useful features such as syntax highlighting, auto-completion (IntelliSense), error detection, live server extensions, and easy project file management. These features helped in efficiently writing, organizing, and debugging HTML, CSS, and JavaScript code during the development of the quiz application. The project files were organized into separate folders for HTML, CSS, and JavaScript to maintain a clean and modular structure.
+The Interactive Quiz Application was developed using Visual Studio Code (VS Code) as the primary code editor. Visual Studio Code is a lightweight yet powerful source-code editor developed by Microsoft. It 
+supports multiple programming languages and provides useful features such as syntax highlighting, auto-completion (IntelliSense), error detection, live server extensions, and easy project file management. These 
+features helped in efficiently writing, organizing, and debugging HTML, CSS, and JavaScript code during the development of the quiz application. The project files were organized into separate folders for HTML, 
+CSS, and JavaScript to maintain a clean and modular structure.
 
 2.About the Task:
 
-The task involves designing and developing a fully functional Interactive Quiz Application using HTML, CSS, and JavaScript. The main objective of this task is to apply front-end web development concepts to build a dynamic, user-friendly quiz system that allows users to test their knowledge across different categories.
+The task involves designing and developing a fully functional Interactive Quiz Application using HTML, CSS, and JavaScript. The main objective of this task is to apply front-end web development concepts to build 
+a dynamic, user-friendly quiz system that allows users to test their knowledge across different categories.
 
-The application is entirely client-side and does not require any backend or database. All quiz questions are stored locally in a JavaScript file, and the quiz logic is handled dynamically using JavaScript functions and event handling.
+The application is entirely client-side and does not require any backend or database. All quiz questions are stored locally in a JavaScript file, and the quiz logic is handled dynamically using JavaScript 
+functions and event handling.
 
 3.Objectives of the Task:
 
 The key objectives of this task are:
 
-To understand the structure and role of HTML in building web pages.
+*To understand the structure and role of HTML in building web pages.
 
-To apply CSS for styling, layout, and responsive design.
+*To apply CSS for styling, layout, and responsive design.
 
-To use JavaScript for implementing dynamic behavior and logic.
+*To use JavaScript for implementing dynamic behavior and logic.
 
-To handle user interactions such as button clicks and option selections.
+*To handle user interactions such as button clicks and option selections.
 
-To manage timers, score calculation, and result display.
+*To manage timers, score calculation, and result display.
 
-To create a real-world mini project using core web technologies.
+*To create a real-world mini project using core web technologies.
 
 4.Description of the Quiz Application:
 
