@@ -98,7 +98,5 @@ JavaScript: Used to implement quiz logic, timer functionality, dynamic question 
 8.Conclusion:
 
 This task successfully demonstrates the use of front-end web development concepts to create a dynamic and interactive quiz application. It helps in understanding how HTML, CSS, and JavaScript work together to 
-
 build real-world applications. The project improves logical thinking, problem-solving skills, and practical knowledge of JavaScript event handling and DOM manipulation. Overall, the Interactive Quiz Application 
-
 serves as an excellent mini project for learning and applying core web development skills.
