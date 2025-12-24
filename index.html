@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Character encoding for the document -->
+    <meta charset="UTF-8">
+
+    <!-- Makes the site responsive on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title shown in browser tab -->
+    <title>Interactive Quiz Application</title>
+
+    <!-- Google Material Icons (Rounded style) -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- External CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= Quiz Configuration Container ================= -->
+    <!-- This section allows users to configure the quiz before starting -->
+    <div class="container">
+
+        <!-- Main heading -->
+        <h4 class="title">Quiz Configuration</h4>
+
+        <!-- -------- Category Selection -------- -->
+        <div class="options-container">
+            <h4 class="options-title">Select Category</h4>
+
+            <!-- Quiz category buttons -->
+            <div class="options">
+                <button class="option">Programming</button>
+                <button class="option">General Knowledge</button>
+                <button class="option">Web Development</button>
+                <button class="option">Science & Technology</button>
+            </div>
+        </div>
+
+        <!-- -------- Number of Questions Selection -------- -->
+        <div class="options-container">
+            <h4 class="options-title">No. of Questions</h4>
+
+            <!-- Buttons to choose number of questions -->
+            <div class="ques-options">
+                <button class="ques-option">5</button>
+                <button class="ques-option">10</button>
+                <button class="ques-option">15</button>
+                <button class="ques-option">20</button>
+                <button class="ques-option">25</button>
+            </div>
+        </div>
+
+        <!-- Button to start the quiz -->
+        <button class="start-quiz">Start Quiz</button>
+    </div>
+
+
+    <!-- ================= Quiz Container ================= -->
+    <!-- This section displays questions during the quiz -->
+    <div class="quiz-container">
+
+        <!-- Quiz header containing title and timer -->
+        <header class="quiz-header">
+            <h2 class="quiz-title">Quiz Application</h2>
+
+            <!-- Timer section -->
+            <div class="quiz-timer">
+                <span class="material-symbols-rounded">timer</span>
+                <p class="time-duration">15s</p>
+            </div>
+        </header>
+
+        <!-- Quiz question and answer options -->
+        <div class="quiz-content">
+
+            <!-- Question text will be inserted using JavaScript -->
+            <h1 class="question-text"></h1>
+
+            <!-- Answer options list generated dynamically -->
+            <ul class="answer-options"></ul>
+        </div>
+
+        <!-- Quiz footer -->
+        <div class="quiz-footer">
+
+            <!-- Displays question progress (e.g., Question 2 of 10) -->
+            <p class="question-status"></p>
+
+            <!-- Button to move to the next question -->
+            <button class="next-question-btn">
+                Next
+                <span class="material-symbols-rounded">arrow_right_alt</span>
+            </button>
+        </div>
+    </div>
+
+
+    <!-- ================= Result Container ================= -->
+    <!-- This section is shown after quiz completion -->
+    <div class="result-container">
+
+        <!-- Result image -->
+        <img 
+          src="https://media.istockphoto.com/id/1125716911/vector/party-popper-with-confetti.jpg?s=612x612&w=0&k=20&c=sAyofM-MQ5TL-pLyFseV9Vke_W2zyYX1btP90oGJQZE=" 
+          class="result-img"
+        >
+
+        <!-- Result heading -->
+        <h2 class="result-title">Quiz Completed!</h2>
+
+        <!-- Score or feedback message -->
+        <p class="result-message"></p>
+
+        <!-- Button to restart the quiz -->
+        <button class="try-again-btn">Try Again</button>
+    </div>
+
+
+    <!-- ================= JavaScript Files ================= -->
+    <!-- Question data -->
+    <script src="javascript/questions.js"></script>
+
+    <!-- Main quiz logic -->
+    <script src="javascript/script.js"></script>
+
+</body>
+</html>
