@@ -111,3 +111,5 @@ serves as an excellent mini project for learning and applying core web developme
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/11dc40a3-b7c9-46ea-a3a4-f82d6d12c919" />
 
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/287f5983-d5da-4df5-ac6a-765edfbfbe2a" />
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/4ceea32a-341a-43ce-a0fc-a4eb3de56aef" />
