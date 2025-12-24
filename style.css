@@ -1,0 +1,321 @@
+/* ================= Google Font Import ================= */
+/* Imports Montserrat font with multiple font weights */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+
+/* ================= Global Reset ================= */
+/* Removes default margin and padding from all elements
+   Applies border-box sizing and sets default font */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+
+/* ================= Body Styling ================= */
+/* Centers the main content vertically and horizontally
+   Sets full screen height and background color */
+body{
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #5145BA;
+}
+
+
+/* ================= Common Containers ================= */
+/* Quiz setup, quiz screen, and result screen
+   Initially hidden using display: none */
+:where(.container, .quiz-container, .result-container){
+    display: none; 
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.13);
+}
+
+
+/* ================= Quiz Configuration Container ================= */
+/* Visible by default */
+.container{
+    display: block;
+    width: 415px;
+    padding: 25px;
+    text-align: center;
+}
+
+
+/* Main title styling */
+.container .title{
+    font-size: 1.31rem;
+}
+
+
+/* Space between option sections */
+.container .options-container{
+    margin-top: 25px;
+}
+
+
+/* Option section title */
+.options-container .options-title{
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+
+/* Category buttons grid layout */
+.options-container .options{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+/* Question count buttons layout */
+.options-container .ques-options{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 0 30px;
+    justify-content: center;
+}
+
+
+/* ================= Buttons Styling ================= */
+/* Default style for all option buttons */
+.options-container button{
+    padding: 12px;
+    font-size: 0.938rem;
+    font-weight: 500;
+    background: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 1px solid #9B8FFF;
+    transition: 0.3s ease;
+}
+
+
+/* Active button style (selected option) */
+.options-container button.active{
+    color: #5145BA;
+    border-color: #5145BA;
+    background: #dad5fd;
+}
+
+
+/* Hover effect for option buttons and answers */
+.options-container button:hover,
+.quiz-content .answer-option:hover{
+    background: #dad5fd;
+}
+
+
+/* Allows flexible width for question count buttons */
+.ques-options button{
+    flex: 1 2 10%;
+}
+
+
+/* ================= Main Action Buttons ================= */
+/* Start Quiz, Next Question, and Try Again buttons */
+.container .start-quiz,
+.quiz-footer .next-question-btn,
+.result-container .try-again-btn{
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+    font-weight: 500;
+    background: #5145BA;
+    padding: 13px 25px;
+    font-size: 1rem;
+    border-radius: 6px;
+    transition: background 0.3s ease;
+}
+
+
+/* Hover effect for main buttons */
+.container .start-quiz:hover,
+.quiz-footer .next-question-btn:hover,
+.result-container .try-again-btn:hover{
+    background: #403795;
+}
+
+
+/* ================= Quiz Container ================= */
+.quiz-container{
+    width: 480px;
+}
+
+
+/* Quiz header layout */
+.quiz-container .quiz-header{
+    display: flex;
+    align-items: center;
+    padding: 14px 25px;
+    justify-content: space-between;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.09);
+}
+
+
+/* Quiz title */
+.quiz-header .quiz-title{
+    font-size: 1.43rem;
+    font-weight: 700;
+}
+
+
+/* Timer box styling */
+.quiz-header .quiz-timer{
+    display: flex;
+    width: 70px;
+    color: #fff;
+    align-items: center;
+    gap: 5px;
+    font-weight: 600;
+    padding: 7px 9px;
+    border-radius: 6px;
+    background: #32313C;
+    transition: 0.3s ease;
+}
+
+
+/* Timer icon size */
+.quiz-container .quiz-timer span{
+    font-size: 1.4rem;
+}
+
+
+/* Quiz content padding */
+.quiz-container .quiz-content{
+    padding: 20px 25px 25px;
+}
+
+
+/* Question text */
+.quiz-content .question-text{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+/* Answer list styling */
+.quiz-content .answer-options{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 20px;
+}
+
+
+/* Individual answer option */
+.quiz-content .answer-option{
+    display: flex;
+    align-items: center;
+    padding: 13px 16px;
+    background: #F3F1FF;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    justify-content: space-between;
+    border: 1px solid #B5ACFF;
+    transition: 0.3s ease;
+}
+
+
+/* Icon inside answer option */
+.quiz-content .answer-option span{
+    display: block;
+    flex-shrink: 0;
+    margin: -4px -3px -4px 12px;
+}
+
+
+/* Correct answer styling */
+.quiz-content .answer-option.correct{
+    border-color: #B7E1C1;
+    background: #D4EDDA;
+    color: #155724;
+}
+
+
+/* Incorrect answer styling */
+.quiz-content .answer-option.incorrect{
+    border-color: #F4BEC3;
+    background: #F8D7DA;
+    color: #721C24;
+}
+
+
+/* ================= Quiz Footer ================= */
+.quiz-container .quiz-footer{
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #c6c6c6;
+}
+
+
+/* Question progress text */
+.quiz-footer .question-status{
+    font-weight: 500;
+}
+
+
+/* Highlighted text inside status and result message */
+.quiz-footer .question-status b,
+.result-container .result-message b{
+    font-weight: 600;
+}
+
+
+/* Next button hidden until answer is selected */
+.quiz-footer .next-question-btn{
+    display: inline-flex;
+    gap: 5px;
+    visibility: hidden;
+    align-items: center;
+    padding: 9px 17px;
+}
+
+
+/* ================= Result Container ================= */
+.result-container{
+    text-align: center;
+    padding: 40px;
+    width: 410px;
+}
+
+
+/* Result image size */
+.result-container .result-img{
+    width: 110px;
+}
+
+
+/* Result title spacing */
+.result-container .result-title{
+    margin-top: 30px;
+}
+
+
+/* Result message styling */
+.result-container .result-message{
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+
+/* Try again button spacing */
+.result-container .try-again-btn{
+    margin-top: 30px;
+    padding: 12px 20px;
+}
