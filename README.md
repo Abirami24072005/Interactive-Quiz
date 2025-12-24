@@ -12,7 +12,7 @@
 
 *MENTOR*: NEELA SANTOSH
 
-Task Description: Interactive Quiz Application
+## Task Description: Interactive Quiz Application
 
 1.Editor / Development Environment Used :
 
@@ -100,3 +100,14 @@ JavaScript: Used to implement quiz logic, timer functionality, dynamic question 
 This task successfully demonstrates the use of front-end web development concepts to create a dynamic and interactive quiz application. It helps in understanding how HTML, CSS, and JavaScript work together to 
 build real-world applications. The project improves logical thinking, problem-solving skills, and practical knowledge of JavaScript event handling and DOM manipulation. Overall, the Interactive Quiz Application 
 serves as an excellent mini project for learning and applying core web development skills.
+
+
+# Output Image:
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/be79404c-2377-477c-bf0a-197482cba148" />
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/4c91a1fe-d6dd-4acf-996c-095c779273c1" />
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/11dc40a3-b7c9-46ea-a3a4-f82d6d12c919" />
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/287f5983-d5da-4df5-ac6a-765edfbfbe2a" />
